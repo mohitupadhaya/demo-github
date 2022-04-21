@@ -12,7 +12,13 @@
       "magento/framework": ">=0.74.0-beta16",
       "magento/magento-composer-installer": "*"
     },
-    "extra": {"map": [["*", "Demo/Test"]]}
+    "extra": {"map": [
+      ["*", "Demo/Test"]
+    ],
+   "branch-alias": {
+   "dev-master": "0.3.x-dev"
+    }
+    }
     "autoload": {
       "files": [ "registration.php" ],
       "psr-4": {
